@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/btnCocina"
+            android:src="@drawable/cocina2"
+            android:scaleType="centerCrop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="1dp"/>
+
+        <ImageButton
+            android:id="@+id/btnEstacionamiento"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/estacionamiento"
+            />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="1dp"/>
+
+        <ImageButton
+            android:id="@+id/btnRecamara"
+            android:layout_width="80dp"
+            android:src="@drawable/recamara"
+            android:scaleType="centerCrop"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
