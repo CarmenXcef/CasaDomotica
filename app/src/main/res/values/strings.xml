@@ -2,4 +2,8 @@
     <string name="app_name">CasaDomotica</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="estacionamiento_title">Estacionamiento</string>
+    <string name="recamara_title">Recámara</string>
+    <string name="cocina_title">Cocina</string>
+    <string name="tinaco_title">Tinaco</string>
 </resources>

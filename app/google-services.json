@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023403202811",
+    "firebase_url": "https://casadomotica-7bb0d-default-rtdb.firebaseio.com",
+    "project_id": "casadomotica-7bb0d",
+    "storage_bucket": "casadomotica-7bb0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023403202811:android:fe7bf3de2db2f1d0ea385e",
+        "android_client_info": {
+          "package_name": "com.example.casadomotica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023403202811-lj0ouqopbsukotp558nraonne6on4hr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_BtwnQ6ZgMRMXMaSmC103LQoSCIncVxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023403202811-lj0ouqopbsukotp558nraonne6on4hr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

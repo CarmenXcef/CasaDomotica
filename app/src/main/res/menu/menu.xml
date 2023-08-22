@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_cocina"
+    android:title="@string/cocina_title"
+    android:icon="@drawable/cocina"/>
+
+    <item
+        android:id="@+id/menu_recamara"
+        android:title="@string/recamara_title"
+        android:icon="@drawable/recamara"/>
+
+    <item
+        android:id="@+id/menu_estacionamiento"
+        android:title="@string/estacionamiento_title"
+        android:icon="@drawable/estacionamiento"/>
+
+
+    <item
+        android:id="@+id/menu_tinaco"
+        android:title="@string/tinaco_title"
+        android:icon="@drawable/tinaco"/>
+
+</menu>

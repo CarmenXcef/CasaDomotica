@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tinaco"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:background="#60000000"
+        android:text="TINACO"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperatura: "
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:id="@+id/imgTemp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/tvTemp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/termometro2" />
+
+            <TextView
+                android:id="@+id/Temperatura"
+                android:layout_toRightOf="@id/tvTemp"
+                android:layout_alignStart="@id/Nivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 C"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/tvNiv"
+                android:layout_below="@id/imgTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nivel del tinaco:"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Nivel"
+                android:layout_toRightOf="@id/tvNiv"
+                android:layout_alignBaseline="@id/tvNiv"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacío/Bajo"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:id="@+id/imgNivel"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_below="@id/tvNiv"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tinaco2" />
+
+        </RelativeLayout>
+
+
+
+</FrameLayout>

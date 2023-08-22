@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="200dp" /> <!-- Adjust the radius value to make the circle larger/smaller -->
+
+    <solid android:color="#FFFFFF" /> <!-- Color del fondo del TextView -->
+    <stroke android:width="2dp" android:color="#FF0000" />
+    <!-- Color del borde -->
+    <corners android:radius="8dp" /> <!-- Radio de las esquinas si deseas bordes redondeados -->
+
+</shape>
